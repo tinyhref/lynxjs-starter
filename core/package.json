@@ -1,0 +1,24 @@
+{
+  "name": "@lynxjs-starter/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rspeedy build",
+    "dev": "rspeedy dev",
+    "preview": "rspeedy preview"
+  },
+  "dependencies": {
+    "@lynx-js/react": "^0.108.0"
+  },
+  "devDependencies": {
+    "@lynx-js/qrcode-rsbuild-plugin": "^0.3.6",
+    "@lynx-js/react-rsbuild-plugin": "^0.9.9",
+    "@lynx-js/rspeedy": "^0.9.4",
+    "@lynx-js/types": "^3.2.1",
+    "@types/react": "^19.1.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

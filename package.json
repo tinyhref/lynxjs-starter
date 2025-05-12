@@ -1,0 +1,21 @@
+{
+  "name": "lynxjs-starter",
+  "description": "A starter template for building web and mobile applications using LynxJS + Hot Reload",
+  "version": "0.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "pnpm --filter core run build",
+    "dev:web": "concurrently \"nodemon --watch core/src --ext js,jsx,ts,tsx,json,css,scss --exec \\\"npm run build\\\"\" \"pnpm --filter web run dev\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "pnpm@9.12.3"
+}
